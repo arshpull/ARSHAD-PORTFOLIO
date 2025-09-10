@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+    scroll-behavior: smooth;
 }
 body{
     background-color: rgb(51, 51, 51);
@@ -18,7 +19,7 @@ header{
     display:flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1380px;
+    max-width: 1280px;
     margin: auto;
     padding: 30px 0px;
 }
@@ -41,7 +42,7 @@ header>.logo>h2{
 }
 /* Header Ends here */
 main{
-    max-width: 1380px;
+    max-width: 1280px;
     margin: auto;
 }
 /* Home sections starts here */
@@ -57,6 +58,7 @@ main{
     justify-content: center;
     gap: 20px;
     margin-bottom:30px ;
+    width: 42%;
 }
 .left-home>h4{
     color: var(--secondarycolor);
@@ -95,3 +97,99 @@ main{
     /* height: 750px; */
     mix-blend-mode:luminosity;
 }
+.right-home{
+    width: 58%;
+}
+/* Home Sections Ends here  */
+
+
+
+
+
+/* About Sections start here */
+#about{
+    margin: 50px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#about>.about-heading{
+    color: var(--secondarycolor);
+    font-size: 20px;
+}
+.mid-about{
+    display: flex;
+    width: 100%;
+    height: 500px;
+    color: var(--primarycolor);
+}
+.left-about{
+    width: 50%;
+}
+.left-about>.followMe{
+    display: flex;
+    gap: 20px;
+    margin:30px 0px;
+}
+div.right-about{
+    height: 260px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 50%;
+    place-items: center;
+    place-content: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    /* align-items: center; */
+
+}
+.right-about>.box{
+    height: 120px;
+    width: 230px;
+    background-color: rgb(96, 99, 99);
+    text-align: center;
+    
+}
+.left-about>.about-button{
+    display: flex;
+    gap: 10px;
+}
+.left-about>.about-button>button{
+      padding: 12px 42px;
+    background-color: var(--buttoncolor);
+    border: none;
+    font-size: 15px;
+    color: var(--primarycolor);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+.left-about>.about-button>button+button{
+    background-color: var(--secondarycolor);
+}
+.mid-about>.left-about>h2>span{
+    color: var(--secondarycolor);
+}
+.mid-about>.left-about>h2{
+    font-size: 22px;
+}
+.mid-about>.left-about>.followMe>.i{
+    background-color:rgb(27, 117, 153);
+    clip-path: circle();
+    padding: 10px;
+}
+.mid-about>.left-about>p{
+    font-size: 16px;
+}
+.mid-about>.left-about>.followMe>span{
+    font-size: 18px;
+}
+.right-about>.box>h2{
+    font-size: 40px;
+}
+.right-about>.box>span{
+    font-size: 16px;
+}
+
+
+/* About Sections Ends here */
