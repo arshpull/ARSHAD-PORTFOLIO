@@ -438,11 +438,25 @@ main{
 }
 .lower-part a{
     color:var(--primarycolor);
+<<<<<<< HEAD
     text-decoration: none;
+=======
+<<<<<<< HEAD
+=======
+    text-decoration: none;
+>>>>>>> ded5e35 (done blog section)
+>>>>>>> f037ab11
 }
 .admin{
     display: flex;
     gap: 10px;
 }
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> ded5e35 (done blog section)
+>>>>>>> f037ab11
 /* Blog Ends here */
