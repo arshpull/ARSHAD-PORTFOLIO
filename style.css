@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
+    cursor:grab;
 }
 body{
     background-color: rgb(51, 51, 51);
@@ -437,11 +438,18 @@ main{
 }
 .lower-part a{
     color:var(--primarycolor);
+<<<<<<< HEAD
+=======
+    text-decoration: none;
+>>>>>>> ded5e35 (done blog section)
 }
 .admin{
     display: flex;
     gap: 10px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> ded5e35 (done blog section)
 /* Blog Ends here */
