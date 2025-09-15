@@ -399,3 +399,49 @@ main{
 
 
 /* portfolio Ends here */
+/* Blog starts here  */
+#blog{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    color: var(--primarycolor);
+}
+.top-blog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.bottom-blog{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.bottom-blog-inner img{
+    height: 100%;
+    width:100%;
+}
+.bottom-blog-inner{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    box-shadow: 1px 1px 3px var(--primarycolor);
+
+}
+.lower-part{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 20px;
+    border: none;
+}
+.lower-part a{
+    color:var(--primarycolor);
+}
+.admin{
+    display: flex;
+    gap: 10px;
+}
+
+
+/* Blog Ends here */
